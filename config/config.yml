@@ -1,0 +1,21 @@
+MODEL:
+  OUTPUT_PATH: "/home/lino/PycharmProjects/ML-HW2/hw2/weights/model.pth"
+  LR: 0.001
+  EPOCH: 50
+
+DATA:
+  PIXEL_MEAN: [0.485, 0.456, 0.406]
+  PIXEL_STD: [0.229, 0.224, 0.225]
+  RESIZE: [224, 224]
+  TRAIN_BATCH_SIZE: 32
+  TEST_BATCH_SIZE: 2
+  VALIDATION_SIZE: 0.2
+  NUM_WORKERS: 4
+
+PATH:
+  TRAIN_SET: "/home/lino/PycharmProjects/ML-HW2/hw2/C1-P1_Train Dev_fixed"
+  TEST_SET: "/home/lino/PycharmProjects/ML-HW2/hw2/C1-P1_Train Dev_fixed/C1-P1_Dev"
+
+DEVICE:
+  GPU: 0
+  CUDA: False
